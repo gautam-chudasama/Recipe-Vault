@@ -43,6 +43,10 @@ const Singlerecipe = () => {
 
       localStorage.setItem("recipes", JSON.stringify(filteredData));
 
+      const filteredFav = favourite.filter((f) => f.id != params?.id);
+      setfavourite(filteredFav);
+      localStorage.setItem("fav", JSON.stringify(filteredFav));
+
       toast.success("Recipe Deleted Successfully");
       navigate("/recipes");
     }
