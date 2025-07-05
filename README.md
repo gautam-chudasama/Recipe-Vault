@@ -1,4 +1,4 @@
-# Recipe Management App
+# Recipe Management App (Recipe Vault)
 
 A modern, responsive recipe management application built with React, Vite, and Tailwind CSS. Create, view, edit, and manage your favorite recipes with an intuitive user interface.
 
