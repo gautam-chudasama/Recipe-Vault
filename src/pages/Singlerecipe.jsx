@@ -1,8 +1,8 @@
-import { use, useContext, useState } from "react";
+import { useContext, useState } from "react";
 import { useParams } from "react-router-dom"
 import { recipecontext } from "../context/Recipecontext";
 import { useNavigate } from "react-router-dom";
-import { set, useForm } from "react-hook-form";
+import { useForm } from "react-hook-form";
 import { toast } from "react-toastify";
 
 const Singlerecipe = () => {
@@ -47,8 +47,6 @@ const Singlerecipe = () => {
       navigate("/recipes");
     }
 
-    // const favourite = JSON.parse(localStorage.getItem("fav")) || [];
-
     const [favourite, setfavourite] = useState(
       JSON.parse(localStorage.getItem("fav")) || []
     )
@@ -65,8 +63,6 @@ const Singlerecipe = () => {
       setfavourite(filteredFav);
       localStorage.setItem("fav", JSON.stringify(filteredFav));
     };
-
-    // useEffect(() => {}, [favourite])
     
   return (
     recipe ? (<div className="w-full flex">

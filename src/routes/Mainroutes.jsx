@@ -18,7 +18,7 @@ const Mainroutes = () => {
         <Route path='/about' element={<About />} />
         <Route path='/fav' element={<Fav />} />
 
-        <Route path='*' element={<PageNotFound />} />              {/* wildcard route */}
+        <Route path='*' element={<PageNotFound />} />
     </Routes>
   )
 }
