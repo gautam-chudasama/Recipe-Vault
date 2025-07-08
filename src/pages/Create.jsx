@@ -35,7 +35,7 @@ const Create = () => {
         type="url" 
         placeholder="Image URL"
         />
-        <small className="text-red-400">THis is error</small>
+{/*         <small className="text-red-400">THis is error</small> */}
 
         <input 
         {...register("title")}
