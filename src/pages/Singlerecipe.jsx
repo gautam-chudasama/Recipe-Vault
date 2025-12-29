@@ -11,7 +11,7 @@ const Singlerecipe = () => {
   const { data, setdata } = useContext(recipecontext);
 
   const params = useParams();
-  const recipe = data.find((recipe) => recipe.id == params.id);
+  const recipe = data?.find((recipe) => recipe.id == params.id);
   // console.log(recipe);
 
   const navigate = useNavigate();
