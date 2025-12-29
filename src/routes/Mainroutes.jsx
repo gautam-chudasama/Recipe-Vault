@@ -12,8 +12,6 @@ const Mainroutes = () => {
         <Route path='/recipes' element={<Recipes />} />
         <Route path='/recipes/detail/:id' element={<Singlerecipe />} />
         <Route path='/create' element={<Create />} />
-
-        <Route path='/about' element={<About />} />
     </Routes>
   )
 }
