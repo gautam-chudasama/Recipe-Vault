@@ -12,10 +12,6 @@ const Navbar = () => {
         </NavLink>
 
         <NavLink 
-        className={(e) => e.isActive ? "text-red-300":""} to="/about">About
-        </NavLink>
-
-        <NavLink 
         className={`px-4 py-1 bg-gray-900 rounded ${(e) => e.isActive ? "text-red-300":""}`} to="/create">Create
         </NavLink>
     </div>
