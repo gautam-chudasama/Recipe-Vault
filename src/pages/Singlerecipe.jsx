@@ -19,12 +19,12 @@ const Singlerecipe = () => {
 
   const {register, handleSubmit} = useForm({
     defaultValues: {
-      title: recipe.title,
-      image: recipe.image,
-      ingredients: recipe.ingredients,
-      instructions: recipe.instructions,
-      description: recipe.description,
-      category: recipe.category
+      title: recipe?.title,
+      image: recipe?.image,
+      ingredients: recipe?.ingredients,
+      instructions: recipe?.instructions,
+      description: recipe?.description,
+      category: recipe?.category
     }
   });
 
