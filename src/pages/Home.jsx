@@ -56,7 +56,7 @@ const Home = () => {
               {/* Save Locally */}
             </h3>
             <p className="text-gray-400">
-              {/* All your recipes are saved in your browser for quick access */}
+              All your recipes are saved in your browser for quick access
             </p>
           </div>
         </div>
