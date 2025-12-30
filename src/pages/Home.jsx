@@ -53,7 +53,7 @@ const Home = () => {
           <div className="p-6 bg-gray-900 rounded-lg hover:bg-gray-850 transition-all duration-300">
             <div className="text-4xl mb-4">💾</div>
             <h3 className="text-xl font-semibold mb-2 text-orange-400">
-              {/* Save Locally */}
+              Save Locally
             </h3>
             <p className="text-gray-400">
               All your recipes are saved in your browser for quick access
